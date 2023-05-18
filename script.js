@@ -57,7 +57,7 @@
     alert("Password will not include special characters.")
    }
    // check to make sure user picks one character
-   if (wantLowercase === false && wantUppercase === false && wantNumeric === false && wantSpecial === false) {
+   if (wantLowercase === false && wantUppercase === false && wantNumeric === false && wantSymbols === false) {
     return "Please select at least one character type.";
   };
 
